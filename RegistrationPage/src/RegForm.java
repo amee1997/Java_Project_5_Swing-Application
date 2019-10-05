@@ -1,4 +1,5 @@
 import javax.swing.JLabel;
+
 import javax.swing.JTextField;
 
 import java.awt.event.ActionEvent;
@@ -7,10 +8,11 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
+
 public class RegForm  {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		JFrame f = new JFrame("Registration");
 		JLabel l1,l2,l3,l4,l5,l6,l7;
 		l1 = new JLabel("First Name:");
